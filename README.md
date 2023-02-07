@@ -146,6 +146,22 @@ Divison for Float numbers
  
 ```
 
+# Test
+To test the cli using different test cases 
+1. cd into test folder using ```cd test```.
+2. To run all test file all at once use 
+```
+go test
+```
+3. To run a particular test file use :
+```
+go test -run=TestName path/to/testfile.go
+
+Example : To run test for addition
+
+go test -run= TestAdder path/to/testfile.go
+```
+
 
 
 

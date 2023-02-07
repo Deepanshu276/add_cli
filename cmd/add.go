@@ -12,7 +12,7 @@ import (
 var addCmd = &cobra.Command{
 	Use:   "add",
 	Short: "Used for addition",
-	Long: `This cli tool is used in addition of two numbers.
+	Long: `This cli tool is used in addition of numbers.
 	Numbers can be integer type or float type `,
 	Run: func(cmd *cobra.Command, args []string) {
 		// returning boolean value if flag float is used
@@ -51,7 +51,6 @@ func AddInt(args []string) int {
 
 // logic for adding float value
 func addFloat(args []string) {
-	fmt.Println(args)
 	var sum float64
 	for _, fval := range args {
 		//ParseFloat converts the string s to a floating-point number with the precision specified by bitSize

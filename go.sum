@@ -1,5 +1,5 @@
-github.com/Deepanshu276/add_cli v0.0.0-20230206083247-84cbfd04eebb h1:ICoaKlb7R7zd1B+66CKNUxD/o5XYAhU83+r+pF1UsO8=
-github.com/Deepanshu276/add_cli v0.0.0-20230206083247-84cbfd04eebb/go.mod h1:19DfwZBsPBcF5hMy3VDCoqpnMaGlU6QXhaKRbdXylgY=
+github.com/Deepanshu276/arithmatic_cli v0.0.0-20230207023811-a290cbfa20ba h1:qNjL0tJ+7uF4LjdwB10qQCs4huTbUfXpgyECEEoQnbU=
+github.com/Deepanshu276/arithmatic_cli v0.0.0-20230207023811-a290cbfa20ba/go.mod h1:hcmX2vlbQlCMvt4OgeFWzb6bcKOOXcfNnRu3s0bC03A=
 github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/inconshreveable/mousetrap v1.0.1 h1:U3uMjPSQEBMNp1lFxmllqCPM6P5u/Xq7Pgzkat/bFNc=
 github.com/inconshreveable/mousetrap v1.0.1/go.mod h1:vpF70FUmC8bwa3OWnCshd2FqLfsEA9PFc4w1p2J65bw=

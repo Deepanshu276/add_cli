@@ -1,9 +1,9 @@
-module github.com/Deepanshu276/arithmatic_cli
+module Deepanshu276/arithmatic_cli
 
 go 1.19
 
 require (
-	github.com/Deepanshu276/add_cli v0.0.0-20230206083247-84cbfd04eebb
+	github.com/Deepanshu276/arithmatic_cli v0.0.0-20230207023811-a290cbfa20ba
 	github.com/spf13/cobra v1.6.1
 )
 

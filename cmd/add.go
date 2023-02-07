@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+	"os"
 	"strconv"
 
 	"github.com/spf13/cobra"
@@ -37,14 +38,14 @@ func AddInt(args []string) int {
 
 	for _, ival := range args {
 		itemp, err := strconv.Atoi(ival)
-
 		if err != nil {
 			fmt.Println(err)
+			os.Exit(1)
 		}
 		sum = sum + itemp
 	}
 
-	fmt.Printf("Addition of numbers %s is %d\n", args, sum)
+	fmt.Printf("Sum of integer numbers %s is %d\n", args, sum)
 	return (sum)
 }
 
@@ -58,6 +59,7 @@ func addFloat(args []string) {
 
 		if err != nil {
 			fmt.Println(err)
+			os.Exit(1)
 		}
 		sum = sum + ftemp
 	}

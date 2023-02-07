@@ -48,7 +48,7 @@ func SubInt(args []string) int {
 
 	}
 
-	fmt.Printf("Addition of numbers %s is %d\n", args, diff)
+	fmt.Printf("subtraction of numbers %s is %d\n", args, diff)
 	return diff
 
 }
@@ -70,5 +70,5 @@ func subFloat(args []string) {
 
 	}
 
-	fmt.Printf("Sum of floating numbers %s is %f\n", args, diff)
+	fmt.Printf("subtraction of floating numbers %s is %f\n", args, diff)
 }

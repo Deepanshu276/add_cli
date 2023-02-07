@@ -8,11 +8,11 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// evenCmd represents the even command
+// divideCmd represents the divide command
 var divideCmd = &cobra.Command{
 	Use:   "divide",
-	Short: "divide two values",
-	Long:  `This is used to divide two values `,
+	Short: "divide the numbers ",
+	Long:  `This is used to divide numbers. Numbers can be both float type number and integer type number `,
 	Run: func(cmd *cobra.Command, args []string) {
 
 		fstatus, _ := cmd.Flags().GetBool("divFloat")
@@ -31,19 +31,19 @@ func init() {
 	divideCmd.Flags().BoolP("divFloat", "d", false, "multiply Floating Numbers")
 }
 
-// Logic for multiplying integer value
+// Logic for dividing integer value
 func DivideInt(args []string) int {
 	var div int
 	for i, ival := range args {
 		itemp, err := strconv.Atoi(ival)
+		if err != nil {
+			fmt.Println(err)
+			os.Exit(1)
+		}
 		if i == 0 {
 			div = int(itemp)
 		} else {
 			div /= int(itemp)
-		}
-		if err != nil {
-			fmt.Println(err)
-			os.Exit(1)
 		}
 
 	}
@@ -53,8 +53,8 @@ func DivideInt(args []string) int {
 
 }
 
-// logic for multiplying float value
-func divideFloat(args []string) {
+// logic for dividing float value
+func divideFloat(args []string) float64 {
 	var div float64
 	for i, fval := range args {
 		//ParseFloat converts the string s to a floating-point number with the precision specified by bitSize
@@ -71,4 +71,5 @@ func divideFloat(args []string) {
 
 		fmt.Printf("division of floating numbers %s is %f\n", args, div)
 	}
+	return div
 }

@@ -19,6 +19,15 @@ Go installed in the local computer with version >= 1.18.
 
 In case for upgradation refer this Link [Golang](https://www.golinuxcloud.com/upgrade-go-version/)
 
+# Installation
+First clone the repo in your $Path. A common place would be within your $GOPATH
+
+Build and copy arithmatic_cli to your $GOPATH/bin:
+
+```
+$ make build
+```
+
 
 
 

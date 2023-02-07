@@ -25,8 +25,23 @@ First clone the repo in your $Path. A common place would be within your $GOPATH
 Build and copy ```arithmatic_cli ``` to your $GOPATH/bin:
 
 ```
-$ make build
+$ go build .
 ```
+
+# Running the Cli
+
+To list all the commands and flags
+
+```
+./arithmatic_cli help
+```
+
+To run the whole command 
+```
+./arithmatic_cli [command] [flag] [args]
+```
+
+# Commands
 
 
 

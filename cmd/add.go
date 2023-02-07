@@ -32,7 +32,7 @@ func init() {
 }
 
 // Logic for adding integer value
-func AddInt(args []string) {
+func AddInt(args []string) int {
 	var sum int
 
 	for _, ival := range args {
@@ -45,7 +45,7 @@ func AddInt(args []string) {
 	}
 
 	fmt.Printf("Addition of numbers %s is %d\n", args, sum)
-	//return sum
+	return (sum)
 }
 
 // logic for adding float value

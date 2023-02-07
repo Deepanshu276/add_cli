@@ -7,7 +7,7 @@ This CLI tool allows you to perform basic mathematics operation like Addition, S
 * Installation
 * Usage
 * Commands
-* * add
+  * add
 
 
 

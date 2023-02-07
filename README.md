@@ -68,6 +68,85 @@ Addition for Float numbers
  The above example will perform addition of 1 and 2 and return the ans in float number i.e 3.1
  
 ```
+## subtract
+subtract command is used to subtract numbers. Numbers can be float typeor integer type
+
+To perform float type subtraction or to return the answer in float type use ```-s``` flag.
+
+Subtraction for integer numbers
+
+```
+./arithmatic_cli [subtract] [args]
+
+Example: ./arithmatic_cli subtract 2 1
+
+The above example will perform subtraction of 2 and 1 and return the ans 1
+
+```
+
+Subraction for Float numbers
+```
+./arithmatic_cli [subtract] [-s] 2.1 1
+ 
+ Example: ./arithmatic_cli subtract -s 2.1 1
+ 
+ The above example will perform subtraction of 2.1 and 1 and return the ans in float number i.e 1.2
+ 
+```
+
+## multiply
+multiply command is used to multiply numbers. Numbers can be float typeor integer type
+
+To perform float type multiplication or to return the answer in float type use ```-m``` flag.
+
+Multiplication for integer numbers
+
+```
+./arithmatic_cli [multiply] [args]
+
+Example: ./arithmatic_cli multiply 1 2
+
+The above example will perform multiplication of 1 and 2 and return the ans 2
+
+```
+
+Multiplication for Float numbers
+```
+./arithmatic_cli [multiply] [-m] 1 2.1
+ 
+ Example: ./arithmatic_cli multiply -m 1 2.1
+ 
+ The above example will perform multiplication of 1 and 2.1 and return the ans in float number i.e 2.1
+ 
+```
+
+## divide
+divide command is used to divide numbers. Numbers can be float typeor integer type
+
+To perform float type division or to return the answer in float type use ```-d``` flag.
+
+Division for integer numbers
+
+```
+./arithmatic_cli [divide] [args]
+
+Example: ./arithmatic_cli divide 2 1
+
+The above example will perform division of 2 and 1 and return the ans 2
+
+```
+
+Divison for Float numbers
+```
+./arithmatic_cli [divide] [-d] 2 1
+ 
+ Example: ./arithmatic_cli divide -d 2 1
+ 
+ The above example will perform division of 2 and 1 and return the ans in float number i.e 2.000
+ 
+```
+
+
 
 
 

@@ -8,6 +8,11 @@ This CLI tool allows you to perform basic mathematics operation like Addition, S
 * Usage
 * Commands
   * add
+  * divide
+  * multiply
+  * subtract
+* Flags
+
 
 
 

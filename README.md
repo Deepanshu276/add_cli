@@ -43,6 +43,32 @@ To run the whole command
 
 # Commands
 
+## add
+add command is used to add numbers. Numbers can be float typeor integer type
+
+To perform float type addition or to return the answer in float type use ```-f``` flag.
+
+Addition for integer numbers
+
+```
+./arithmatic_cli [add] [args]
+
+Example: ./arithmatic_cli add 1 2
+
+The above example will perform addition of 1 and 2 and return the ans 3
+
+```
+
+Addition for Float numbers
+```
+./arithmatic_cli [add] [-f] 1 2
+ 
+ Example: ./arithmatic_cli add -f 1 2.1
+ 
+ The above example will perform addition of 1 and 2 and return the ans in float number i.e 3.1
+ 
+```
+
 
 
 

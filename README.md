@@ -16,7 +16,8 @@ This CLI tool allows you to perform basic mathematics operation like Addition, S
 
 # Prerequisites
 Go installed in the local computer with version >= 1.18.
-In case of upgrade follow [Golang](https://www.golinuxcloud.com/upgrade-go-version/)
+
+In case for upgradation refer this Link [Golang](https://www.golinuxcloud.com/upgrade-go-version/)
 
 
 

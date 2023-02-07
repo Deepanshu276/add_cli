@@ -1,11 +1,8 @@
-module Deepanshu276/arithmatic_cli
+module github.com/Deepanshu276/arithmatic_cli
 
 go 1.19
 
-require (
-	github.com/Deepanshu276/arithmatic_cli v0.0.0-20230207023811-a290cbfa20ba
-	github.com/spf13/cobra v1.6.1
-)
+require github.com/spf13/cobra v1.6.1
 
 require (
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect

@@ -9,7 +9,7 @@ import (
 // for integer value
 func TestMultiply(t *testing.T) {
 	input := cmd.MultiplyInt([]string{"1", "2"})
-	expect := 4
+	expect := 2
 	if input != expect {
 		t.Errorf("got %q, wanted %q", input, expect)
 	}

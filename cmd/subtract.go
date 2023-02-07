@@ -7,11 +7,11 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// oddCmd represents the odd command
+// subCmd represents the subtract command
 var subCmd = &cobra.Command{
 	Use:   "subtract",
 	Short: "Subtraction of numbers",
-	Long:  `Used in only subtraction of numbers`,
+	Long:  `Used in subtraction of numbers. Numbers can be float type or integer type`,
 	Run: func(cmd *cobra.Command, args []string) {
 		//logic to add two even numbers
 		// returning boolean value if flag float is used
@@ -32,7 +32,7 @@ func init() {
 	subCmd.Flags().BoolP("subfloat", "s", false, "Add Floating Numbers")
 }
 
-// Logic for adding integer value
+// Logic for subtracting integer value
 func SubInt(args []string) int {
 	var diff int
 	for i, ival := range args {
@@ -53,7 +53,7 @@ func SubInt(args []string) int {
 
 }
 
-// logic for adding float value
+// logic for subtracting float value
 func subFloat(args []string) {
 	var diff float64
 	for i, fval := range args {

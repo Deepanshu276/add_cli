@@ -11,8 +11,8 @@ import (
 // evenCmd represents the even command
 var multiplyCmd = &cobra.Command{
 	Use:   "multiply",
-	Short: "Multiply two values",
-	Long:  `This is used to multiply two values `,
+	Short: "Multiply two numbers",
+	Long:  `This is used to multiply different numbers. Numbers can be float type or integer type `,
 	Run: func(cmd *cobra.Command, args []string) {
 
 		fstatus, _ := cmd.Flags().GetBool("mulFloat")
